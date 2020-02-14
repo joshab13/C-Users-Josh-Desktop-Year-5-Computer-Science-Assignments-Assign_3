@@ -1,0 +1,51 @@
+package Assign_3;
+
+
+import Media.*;                  // for Turtle and TurtleDisplayer
+import java.awt.*;               // for Color objects and methods
+import static java.lang.Math.*;  // for math constants and functions
+import static java.awt.Color.*;  // for Color constants
+
+
+/** This class ...
+  *
+  * Joshua Braganza
+  * COSC 1P02: Assignment 3
+  * @version 1.0 (February 12th 2019)                                                        */
+
+public class Cityscape {
+    
+    
+    private Turtle yertle;
+    private TurtleDisplayer display;
+    display = new TurtleDisplayer;
+    yertle = new Turtle;
+    display.placeTurtle(yertle);
+    
+    /** This constructor ...                                                     */
+    
+    public Cityscape ( ) {
+        
+      drawbuilding();
+        
+    }; // constructor
+
+    
+    
+    /** This method ...                                                          */
+    
+    private void drawbuilding ( <parameters> ) {
+    
+        // local variables
+    
+        // statements
+    
+    }; // <methodName>
+
+    
+    
+    public static void main ( String[] args ) { Cityscape s = new Cityscape(); };
+
+    
+    
+}  // <className>
